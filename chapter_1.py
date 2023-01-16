@@ -1,7 +1,12 @@
 from typing import Dict, List
 
 
-def ordered_andi(andis: Dict[int, str]) -> List:
+def ordered_andi(andis: Dict[int, str]) -> List[str]:
+    """
+    Takes a dictionary of ANDi names and returns a list of their names in alphabetical order.
+    :param andis:
+    :return:
+    """
     return sorted(andis.values(), key=str.casefold)
 
 
