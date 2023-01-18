@@ -16,9 +16,9 @@ class Employee:
     @property
     def email(self) -> str:
         """
-        email returns {first_name}.{second_name}@and.digital.co.uk
+        email returns {first_name}.{second_name}@and.digital
         """
-        return f"{self.first_name.lower()}.{self.second_name.lower()}@and.digital.co.uk"
+        return f"{self.first_name.lower()}.{self.second_name.lower()}@and.digital"
 
 
 def rock_paper_scissors() -> tuple[int, int]:
