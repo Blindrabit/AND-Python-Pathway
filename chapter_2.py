@@ -11,14 +11,14 @@ class Employee:
         """
         full_name returns the {first_name} {second_name}
         """
-        return self.full_name
+        return f"{self.first_name.title()} {self.second_name.title()}"
 
     @property
     def email(self) -> str:
         """
         email returns {first_name}.{second_name}@and.digital.co.uk
         """
-        return f"{self.first_name.lower()}.{self.second_name.lower}@and.digital.co.uk"
+        return f"{self.first_name.lower()}.{self.second_name.lower()}@and.digital.co.uk"
 
 
 def rock_paper_scissors() -> tuple[int, int]:
